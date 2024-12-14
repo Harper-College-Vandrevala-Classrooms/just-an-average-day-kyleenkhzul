@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestCalculator" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-12-08T02:08:43" hostname="KYLESPC" time="0.021">
+<testsuite name="com.csc.TestCalculator" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-12-14T00:45:54" hostname="KYLESPC" time="0.022">
   <properties/>
-  <testcase name="testAverageUsingForLoop()" classname="com.csc.TestCalculator" time="0.01"/>
+  <testcase name="testSquareNumbers()" classname="com.csc.TestCalculator" time="0.009"/>
+  <testcase name="testFilterEvens()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testAddFive()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testAverageUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
   <testcase name="testSumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testMinimumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testEmptyArrayForStreamMethods()" classname="com.csc.TestCalculator" time="0.002"/>
@@ -9,7 +12,8 @@
   <testcase name="testMinimumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testMaximumUsingStream()" classname="com.csc.TestCalculator" time="0.0"/>
   <testcase name="testMaximumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
-  <testcase name="testSumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testFilterOdds()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

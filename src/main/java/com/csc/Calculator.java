@@ -55,4 +55,34 @@ public class Calculator {
   public int averageUsingStream(int[] arr) {
     return (int)Arrays.stream(arr).average().orElseThrow(() -> new IllegalArgumentException("Array is Empty"));
   }
+
+  // Portfolio 3 Add-Ons:
+  
+  // Evens Only
+  public int[] filterEvens(int[] numbers) {
+    return Arrays.stream(numbers)
+                 .filter(num -> num % 2 == 0)
+                 .toArray();
+}
+
+// Odds Only
+public int[] filterOdds(int[] numbers) {
+    return Arrays.stream(numbers)
+                 .filter(num -> num % 2 != 0)
+                 .toArray();
+}
+
+// Add Five
+public int[] addFive(int[] numbers) {
+    return Arrays.stream(numbers)
+                 .map(num -> num + 5)
+                 .toArray();
+}
+
+// Square Numbers
+public int[] squareNumbers(int[] numbers) {
+    return Arrays.stream(numbers)
+                 .map(num -> num * num)
+                 .toArray();
+}
 }
